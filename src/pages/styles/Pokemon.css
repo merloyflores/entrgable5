@@ -1,0 +1,192 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 85%;
+    margin: auto;
+    justify-items: center;
+}
+
+.content {
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.pokemon__banner {
+    height: 200px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+.pokemon__img {
+    width: 340px;
+    margin: -18%;
+}
+
+.pokemon__content-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.pokemon__date-number {
+    border: solid 1px gray;
+    width: 65px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.pokemon__date-nameContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    contain: content;
+}
+
+.pokemon__date-name {
+    font-size: 45px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+}
+
+.pokemon__date-name-HR {
+    width: 30%;
+    height: 0;
+    margin: auto;
+}
+
+.pokemon__date-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.pokemon__date {
+    margin: 20px;
+}
+
+.pokemon__date-Title {
+    font-size: "Roboto";
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.pokemon__TypeAbilities {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon__type-Content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+}
+
+.pokemon__type-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.pokemon__type-type {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon__type-typeClass {
+    margin: 6px;
+    background-color: #85C9C5;
+    color: white;
+    text-transform: capitalize;
+    padding: 8px;
+    width: 150px;
+}
+
+.stats {
+    margin: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.stats__title {
+    font-size: "Roboto";
+    margin-bottom: 5px;
+}
+.stats__type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.bars {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 30px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.bars__color {
+    height: 30px;
+    background: linear-gradient(90deg, #FCD676, #E6901E);
+    border-radius: 10px;
+}
+
+.movements {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.movements__type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.movements__moves {
+    margin: 10px;
+    background-color: #E5E5E5;
+    padding: 11px;
+    border-radius: 50px;
+}
+
+.movements__contentsTitle {
+    margin: 20px;
+}
+
+.movements__title {
+    text-align: start;
+}
+.bar-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bar-hr {
+    height: 1px;
+    background-color: gray;
+    width: 60vw;
+}

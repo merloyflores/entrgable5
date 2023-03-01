@@ -1,0 +1,160 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.home__title {
+    text-align: center;
+    font-size: 50px;
+    color: #FE1936;
+    font-family: inter;
+    line-height: 60.51px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.home__text {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    font-family: inter;
+    margin-bottom: 30px;
+}
+
+.home__form {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    transform: translate(20%);
+}
+
+.home__input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.home__input[type=text]{
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.home__input[type=text]:focus {
+    background-color: lightblue;
+    width: 50%;
+    
+}
+
+.home__btn {
+    background-color: #D93F3F;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    width: 200px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: solid 2px gray;
+}
+
+.home__btn:hover {
+    background-color: gray;
+}
+
+.home-header {
+    background: #24292e;
+    bottom: 0;
+    padding: 0;
+    position: fixed;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    left: 0vw;
+    width: 100%;
+    z-index: 10000;
+}
+
+
+.home-header__red {
+    height: 60px;
+    background-color: #dd1a1a;
+    position: relative;
+}
+
+.home-header__black {
+    height: 50px;
+    background-color: #0c0c0c;
+    position: relative;
+}
+
+.home-header__button-pokeball {
+    position: absolute;
+    right: 45%;
+    top: -50px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 10px solid #0c0c0c;
+    width: 90px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .home__section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .home__img {
+        align-items: center;
+        justify-content: center;
+        left: 50vw;
+        width: 50vw;
+    }
+    
+    .home__title {
+        text-align: center;
+        font-size: 35px;
+    }
+        
+    .home__text {
+        font-size: 15px;
+    }
+
+    .home__form {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .home__input {
+        align-items: center;
+        width: 50vw;
+    }
+
+    .home__btn {
+        width: 50vw;
+        -webkit-transition: width 0.7s ease-in-out;
+    transition: width 0.7s ease-in-out;
+    }
+
+    .home-header__button-pokeball {
+        right: 50vh;
+    }
+}
+
+@media (max-width: 580px) {
+    .home-header__button-pokeball {
+        right: 30vh;
+    }
+}
+
+@media (max-width: 390px) {
+    .home-header__button-pokeball {
+        right: 20vh;
+    }
+}
