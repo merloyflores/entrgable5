@@ -84,7 +84,7 @@ const Pokemon = () => {
                       <h5 className='stats__baseStat'>{stat.base_stat}/150</h5>
                     </div>
                     <div className='bars'>
-                      <div className={`bars__color`} style={{maxWidth: `${stat.base_stat}%` }} ></div>
+                      <div className={`bars__color`} style={{maxWidth: `${stat.base_stat}vh` }} ></div>
                     </div>
                   </article>
                 ))
